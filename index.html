@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StayEase Hostels – Premium Accommodation</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!--navigation -->
+  <nav>
+    <a href="#" class="nav-logo">
+      <i class="ti ti-building"></i> MS_Grand Hostels
+    </a>
+    <ul class="nav-links">
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="btn-nav" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+      Book Now
+    </button>
+  </nav>
+
+  <!--hero section-->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Trusted Since 2020</div>
+      <h1>Where Comfort Meets <span>Affordability</span></h1>
+      <p>Premium hostel accommodations for students and professionals. Safe, well-managed, and designed for productive
+        living.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary"><i class="ti ti-calendar"></i> Book a Room</a>
+        <a href="tel:+919876543210" class="btn-outline"><i class="ti ti-phone"></i> Contact Us</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3><i class="ti ti-door"></i> Live Availability</h3>
+      <div class="avail-row">
+        <span class="room-name">Single Room</span>
+        <span class="badge badge-green">Available</span>
+      </div>
+      <div class="avail-row">
+        <span class="room-name">Double Sharing</span>
+        <span class="badge badge-green">Available</span>
+      </div>
+      <div class="avail-row">
+        <span class="room-name">Triple Sharing</span>
+        <span class="badge badge-amber">2 Left</span>
+      </div>
+      <div class="avail-row">
+        <span class="room-name">Dormitory (6-bed)</span>
+        <span class="badge badge-red">Full</span>
+      </div>
+      <a href="#rooms" class="btn-primary" style="width:100%; margin-top:18px; justify-content:center;">
+        Check All Rooms
+      </a>
+    </div>
+  </section>
+
+  <!--start  -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="num">350+</div>
+      <div class="lbl">Happy Residents</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">48</div>
+      <div class="lbl">Total Rooms</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">15+</div>
+      <div class="lbl">Years of Service</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">4.8★</div>
+      <div class="lbl">Average Rating</div>
+    </div>
+  </div>
+
+  <!-- rooms -->
+  <section class="section" id="rooms">
+    <div class="section-header">
+      <div class="section-eyebrow">Accommodation</div>
+      <h2>Our Room Types</h2>
+      <p>Choose the room that fits your needs and budget</p>
+    </div>
+    <div class="rooms-grid">
+
+      <div class="room-card">
+        <div class="room-img single">
+          <i class="ti ti-bed" style="color:#6366f1;"></i>
+        </div>
+        <div class="room-body">
+          <h4>Single Room</h4>
+          <div class="room-meta">Private &middot; 1 Person &middot; AC</div>
+          <div class="room-price">₹8,500 <span>/ month</span></div>
+        </div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-img double">
+          <i class="ti ti-home" style="color:#16a34a;"></i>
+        </div>
+        <div class="room-body">
+          <h4>Double Sharing</h4>
+          <div class="room-meta">Shared &middot; 2 Persons &middot; AC</div>
+          <div class="room-price">₹5,500 <span>/ month</span></div>
+        </div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-img triple">
+          <i class="ti ti-users" style="color:#ea580c;"></i>
+        </div>
+        <div class="room-body">
+          <h4>Triple Sharing</h4>
+          <div class="room-meta">Shared &middot; 3 Persons &middot; Fan</div>
+          <div class="room-price">₹4,000 <span>/ month</span></div>
+        </div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-img dorm">
+          <i class="ti ti-building-community" style="color:#0284c7;"></i>
+        </div>
+        <div class="room-body">
+          <h4>Dormitory</h4>
+          <div class="room-meta">Dormitory &middot; 6 Persons &middot; Fan</div>
+          <div class="room-price">₹3,000 <span>/ month</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr />
+
+  <!--AMENITIES-->
+  <section class="section bg-light" id="amenities">
+    <div class="section-header">
+      <div class="section-eyebrow">Facilities</div>
+      <h2>Premium Amenities</h2>
+      <p>Everything you need for a comfortable stay</p>
+    </div>
+    <div class="amenities-grid">
+      <div class="amenity-item"><i class="ti ti-wifi"></i>
+        <h5>High-Speed WiFi</h5>
+        <p>100 Mbps fiber connection</p>
+      </div>
+      <div class="amenity-item"><i class="ti ti-tools-kitchen-2"></i>
+        <h5>Mess &amp; Kitchen</h5>
+        <p>Home-cooked meals daily</p>
+      </div>
+      <div class="amenity-item"><i class="ti ti-washing-machine"></i>
+        <h5>Laundry</h5>
+        <p>In-house laundry service</p>
+      </div>
+      <div class="amenity-item"><i class="ti ti-shield-lock"></i>
+        <h5>24/7 Security</h5>
+        <p>CCTV &amp; gated entry</p>
+      </div>
+      <div class="amenity-item"><i class="ti ti-air-conditioning"></i>
+        <h5>AC Rooms</h5>
+        <p>Available in select rooms</p>
+      </div>
+      <div class="amenity-item"><i class="ti ti-car"></i>
+        <h5>Parking</h5>
+        <p>Two-wheeler &amp; car parking</p>
+      </div>
+      <div class="amenity-item"><i class="ti ti-book"></i>
+        <h5>Study Room</h5>
+        <p>Quiet study area available</p>
+      </div>
+      <div class="amenity-item"><i class="ti ti-first-aid-kit"></i>
+        <h5>First Aid</h5>
+        <p>Medical support on-call</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY
+     Replace <i> icons with <img src="images/your-photo.jpg" alt="..."> tags
+     -->
+  <section class="section" id="gallery">
+    <div class="section-header">
+      <div class="section-eyebrow">Gallery</div>
+      <h2>A Glimpse of Your New Home</h2>
+      <p>Replace the placeholders below with your actual photos</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-cell tall"><img src="MS_Grand Hostel/images/room.jpg"> </div>
+      <div class="gallery-cell"><img src="MS_Grand Hostel/images/room.jpg"></i></div>
+      <div class="gallery-cell"><img src="MS_Grand Hostel/images/tools.jpg"></div>
+      <div class="gallery-cell"><img src="MS_Grand Hostel/images/sofa.jpg"></div>
+      <div class="gallery-cell"><img src="MS_Grand Hostel/images/books.jpg"></div>
+    </div>
+  </section>
+
+  <!-- contact-->
+  <section class="section bg-light" id="contact">
+    <div class="section-header">
+      <div class="section-eyebrow">Get in Touch</div>
+      <h2>Book Your Room Today</h2>
+      <p>Fill out the enquiry form and we'll get back to you within 24 hours</p>
+    </div>
+    <div class="contact-wrapper">
+
+      <div class="contact-info">
+        <h3>Visit Us or Call Anytime</h3>
+        <p>Our team is available 7 days a week to help you find the perfect room and answer any questions.</p>
+        <div class="info-item">
+          <i class="ti ti-map-pin"></i>
+          <span>Ameerpeth, Near Metro Station,<br>Hyderabad, Telangana 500001</span>
+        </div>
+        <div class="info-item">
+          <i class="ti ti-phone"></i>
+          <span>+91 8668798528</span>
+        </div>
+        <div class="info-item">
+          <i class="ti ti-mail"></i>
+          <span>siddheshwarmule14@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <i class="ti ti-clock"></i>
+          <span>Office Hours: Mon–Sat, 9am – 7pm</span>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send an Enquiry</h3>
+        <form id="enquiry-form" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="f-name">Full Name</label>
+              <input type="text" id="f-name" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone</label>
+              <input type="tel" id="f-phone" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input type="email" id="f-email" placeholder="you@email.com" required />
+            </div>
+            <div class="field">
+              <label for="f-room">Room Type</label>
+              <select id="f-room" required>
+                <option value="">Select room type</option>
+                <option>Single Room</option>
+                <option>Double Sharing</option>
+                <option>Triple Sharing</option>
+                <option>Dormitory</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-date">Move-in Date</label>
+            <input type="date" id="f-date" required />
+          </div>
+          <div class="field">
+            <label for="f-msg">Message</label>
+            <textarea id="f-msg" placeholder="Any specific requirements or questions..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn" id="submit-btn">
+            <i class="ti ti-send"></i> Submit Enquiry
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer>
+    <div>© 2026 <span>MS_Grand Hostels</span>. All rights reserved.</div>
+    <div>Made with care in Hyderabad</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
